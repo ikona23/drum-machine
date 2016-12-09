@@ -11,6 +11,11 @@
   transition:all 0.4;
   width:100px;
   text-align:center;
-  background: gray;
+  background: rgb(65, 42, 78);
   text-shadow:0 0 5px black;
+}
+
+kbd {
+  display:block;
+  font-size:40px;
 }

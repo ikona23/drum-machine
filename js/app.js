@@ -1,6 +1,3 @@
-function add(a,b) {
-  return a+b
-
-}
-
-document.write(add(3,5))
+window.addEventListener('keydown', function(e){
+  console.log(e);
+})
