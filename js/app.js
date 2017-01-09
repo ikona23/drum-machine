@@ -5,3 +5,7 @@ window.addEventListener('keydown', function(e){
   audio.play()
   console.log(audio);
 })
+
+document.querySelector('.container').onclick = function() {
+  console.log('hello');
+}
