@@ -15,13 +15,19 @@
 }
 .keys {
 
+
+}
+.playing {
+  transform:scale(1.0);
+  border-color:rgb(255, 84, 0);
+  box-shadow: 0 0 20px;
 }
 .container {
   display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-    background-image:url("img/bck.jpg");
+
 }
 kbd {
   display:block;
@@ -29,5 +35,5 @@ kbd {
 }
 
 .container {
-  background-image:url("img/bck.jpg");
+
 }
